@@ -1,21 +1,23 @@
 body {
     margin: 0;
-    font-family: "Open Sans", sans-serif;
     background: #2F2E41;
     min-height: 100vh;
   }
-  
+
   .page {
-    width: 1000px;
+    width: 1092px;
     margin: 0 auto;
-    padding-top: 65px;
+    padding-top: 30px;
   }
   
+  /* Header */
   nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 55px;
+    margin-bottom: 101px;
+
+    background-color: yellow;
   }
   
   ul {
@@ -28,72 +30,108 @@ body {
   
   a {
     color: #ffffff;
+    font-family: "JetBrains Mono", monospace;
     text-decoration: none;
-  }
-  
-  ul li a {
-    opacity: 0.5;
   }
   
   ul li a:hover {
     font-weight: bold;
-    opacity: 1;
-  }
-  
-  h1, ul {
-    font-family: "Mulish", sans-serif;
-  }
-  
-  main {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
   }
 
-  h1 {
-    font-size: 49px;
-    line-height: 56px;
-    color: #1f1534;
-    font-weight: normal;
-  }
+/* Main */
+main {
+  display: flex;
+  align-items: center;
+
   
-  h1 span {
-    color: #89c5cc;
-    font-weight: bold;
-  }
+  width: 1092;
+  height: 283;
+  margin: 0;
+  padding: 0;
   
+  background-color: green;
+}
+
+main img {
+  background-color: orange;
+}
+
+h1 {
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 700px;
+  font-size: 36px;
+  line-height: 56px;
+  color: #ffffff;
+
+  width: 604px;
+
+  
+  /* margin: 0 87px 75px 87px; */
+
+  background-color: blue;
+}
+
+
+
+
+span {
+  color: #89c5cc;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
   section p {
-    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
     line-height: 28px;
-    color: #7d7987;
-    margin: 40px 0;
+    text-align: center;
+    color: #C2C2C2;
+
+
+
+
+    background-color: blueviolet;
   }
   
-  button {
-    color: white;
-    text-transform: uppercase;
-    font-family: "Open Sans", sans-serif;
-    background: #69B99D;
-    border: none;
-    border-radius: 4px;
-    padding: 14px 32px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 10px;  
-    cursor: pointer;
+
+
+
+
+
+
+/* Footer*/
+
+
+
+
+
+
+
+
+
+
+
+  #linha {
+    width: 568px;
+    height: 0px;
+    margin: 0 auto 8px;
+    border: 1px solid #00BFA6;
   }
-  
-  button:hover {
-    background: #4EA788;
-  }
-  
+
   footer {
+    color: #ffffff;
+    font-family: "JetBrains Mono", monospace;
     font-size: 14px;
     line-height: 28px;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 27px;
   }
+
   
   footer a {
     font-weight: bold;
