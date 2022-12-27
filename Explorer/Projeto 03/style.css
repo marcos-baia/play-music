@@ -183,7 +183,29 @@ fieldset legend {
   outline: 2px solid black;
 }
 
+footer {
+  background-color: #f0f0f4;
+  height: 136px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 64px;
+  margin-bottom: 100px;
+  border-top: 1px solid #D6D6D6;
+  border-radius: 0 0 8px 8px;
+}
 
+footer .button {
+  height: 56px;
+  background: #04D361;
+  border: 0;
+  border-radius: 8px;
 
+  font-family: 'Archivo';
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+}
 
-
+footer .button:hover {
+  background: #08A04C;
+}
