@@ -74,12 +74,12 @@ fieldset legend {
   padding: 0 0 14px 0;
 }
 
-fieldset #nome-sobrenome {
+fieldset .nome-sobrenome {
   display: flex;
   gap: 22px;
 }
 
-fieldset #nome-sobrenome input {
+fieldset .nome-sobrenome input {
   width: 300px;
   height: 56px;
 }
@@ -116,4 +116,33 @@ fieldset #nome-sobrenome input {
   font-size: 16px;
   line-height: 26px;
   color: #C1BCCCC;
+}
+
+fieldset h1 {
+  font-family: 'Staatliches', cursive;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  color: #535971;
+
+  margin-bottom: 0;
+}
+
+.horario {
+  display: flex;
+  padding: 0;
+}
+
+.horario > div:nth-child(1) {
+  width: 300px;
+  margin-right: 32px;
+}
+
+.horario > div:nth-child(2) {
+  width: 140px;
+  margin-right: 10px;
+}
+
+.horario > div:nth-child(3) {
+  width: 140px;
 }
