@@ -118,32 +118,51 @@ fieldset .nome-sobrenome input {
   color: #C1BCCC;
 }
 
-fieldset h1 {
+
+
+.mentoria h1{
   font-family: 'Staatliches', cursive;
   font-size: 20px;
   font-weight: 400;
   line-height: 34px;
-  color: #535971;
-
-  margin-bottom: 0;
+  color: #FF5374;
 }
 
-.horario {
+.primeiro-mentoria {
   display: flex;
   padding: 0;
 }
 
-.horario > div:nth-child(1) {
+.primeiro-mentoria > div:nth-child(1) {
   width: 300px;
   margin-right: 32px;
 }
 
-.horario > div:nth-child(2) {
+.primeiro-mentoria > div:nth-child(2) {
   width: 140px;
   margin-right: 10px;
 }
 
-.horario > div:nth-child(3) {
+.primeiro-mentoria > div:nth-child(3) {
+  width: 140px;
+}
+
+.segundo-mentoria {
+  display: flex;
+  padding: 0;
+}
+
+.segundo-mentoria > div:nth-child(1) {
+  width: 300px;
+  margin-right: 32px;
+}
+
+.segundo-mentoria > div:nth-child(2) {
+  width: 140px;
+  margin-right: 10px;
+}
+
+.segundo-mentoria > div:nth-child(3) {
   width: 140px;
 }
 
