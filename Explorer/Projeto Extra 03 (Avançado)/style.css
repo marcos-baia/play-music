@@ -5,6 +5,7 @@
 
 body {
   background: #BFD7E4;
+  font-family: 'Poppins';
 }
 
 body::before {
@@ -52,7 +53,7 @@ header p {
 }
 
 .informacoes {
-  margin-top: 27px;
+  margin-top: 26px;
   background: #F67669;
   padding: 50px 275px;
   border-radius: 20px 20px 0 0;
@@ -69,6 +70,37 @@ header p {
 
 form {
   background: #FFFFFF;
+  padding: 32px 64px;
+}
 
-  min-height: 300px;
+.nome-sobrenome {
+  display: flex;
+  gap: 22px;
+}
+.nome-sobrenome input {
+  width: 250px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper label {
+  font-size: 14px;
+  line-height: 24px;
+  color: #4E4958;  
+}
+
+.input-wrapper input {
+  background: #FAFAFC;
+  height: 56px;
+  padding: 0 24px;
+
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+
+  font-size: 16px;
+  line-height: 26px;
+  color: #C1BCCC;
 }
