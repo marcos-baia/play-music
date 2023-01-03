@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #BFD7E4;
+}
+
+body::before {
+  content: ' ';
+  width: 100%;
+  height: 465px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #5D6C7A;
+}
+
+.page {
+  width: 750px;
+  margin: 0 auto;
+}
+
+header {
+  width: 282px;
+  margin: 0 auto;
+  margin-top: 107px;
+}
+
+header h1 {
+  font-family: 'Staatliches', cursive;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 45px;
+  color: #FFFFFF;
+  
+}
+
+header p {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+
+  width: 391px;
+}
+
+form {
+  margin-top: 32px;
+  background: #FFFFFF;
+  border-radius: 20px 20px 0 0;
+
+  min-height: 300px;
+}
