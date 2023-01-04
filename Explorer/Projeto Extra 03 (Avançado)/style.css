@@ -136,8 +136,18 @@ fieldset legend {
   width: 300px;
 }
 
+.checkbox-wrapper {
+  position: relative;
+}
+
 .checkbox-wrapper input {
-  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+
+  opacity: 0;
 }
 
 .checkbox-wrapper label {
