@@ -74,12 +74,12 @@ fieldset legend {
   padding: 0 0 14px 0;
 }
 
-fieldset .nome-sobrenome {
+.nome-sobrenome {
   display: flex;
   gap: 22px;
 }
 
-fieldset .nome-sobrenome input {
+.nome-sobrenome input {
   width: 300px;
   height: 56px;
 }
@@ -117,8 +117,6 @@ fieldset .nome-sobrenome input {
   line-height: 26px;
   color: #C1BCCC;
 }
-
-
 
 .mentoria h1{
   font-family: 'Staatliches', cursive;
