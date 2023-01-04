@@ -98,6 +98,15 @@ fieldset {
   margin: 5px 0 2px;
 }
 
+.input-wrapper label span {
+  margin-right: 10px;
+  font-size: 12px;
+  line-height: 20px;
+
+  color: #C1BCCC;
+}
+
+
 .input-wrapper input, .input-wrapper textarea {
   background: #FAFAFC;
   height: 56px;
@@ -172,4 +181,23 @@ fieldset legend {
 
 .checkbox-wrapper input:focus + label::before {
   outline: 2px solid black;
+}
+
+.agendamento {
+  display: flex;
+  padding: 0;
+}
+
+.agendamento > div:nth-child(1) {
+  width: 300px;
+  margin-right: 32px;
+}
+
+.agendamento > div:nth-child(2) {
+  width: 140px;
+  margin-right: 10px;
+}
+
+.agendamento > div:nth-child(3) {
+  width: 140px;
 }
