@@ -118,7 +118,7 @@ fieldset legend {
   color: #C1BCCC;
 }
 
-.mentoria h1{
+.mentoria h1 {
   font-family: 'Staatliches', cursive;
   font-size: 20px;
   font-weight: 400;
@@ -126,43 +126,36 @@ fieldset legend {
   color: #FF5374;
 }
 
-.primeiro-mentoria {
+
+
+
+
+
+.mentoria {
   display: flex;
+  margin-top: 0;
   padding: 0;
 }
 
-.primeiro-mentoria > div:nth-child(1) {
+.mentoria > div:nth-child(1) {
   width: 300px;
   margin-right: 32px;
 }
 
-.primeiro-mentoria > div:nth-child(2) {
+.mentoria > div:nth-child(2) {
   width: 140px;
   margin-right: 10px;
 }
 
-.primeiro-mentoria > div:nth-child(3) {
+.mentoria > div:nth-child(3) {
   width: 140px;
 }
 
-.segundo-mentoria {
-  display: flex;
-  padding: 0;
-}
 
-.segundo-mentoria > div:nth-child(1) {
-  width: 300px;
-  margin-right: 32px;
-}
 
-.segundo-mentoria > div:nth-child(2) {
-  width: 140px;
-  margin-right: 10px;
-}
 
-.segundo-mentoria > div:nth-child(3) {
-  width: 140px;
-}
+
+
 
 footer {
   height: 160px;
