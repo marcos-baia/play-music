@@ -118,18 +118,13 @@ fieldset legend {
   color: #C1BCCC;
 }
 
-.mentoria h1 {
+label {
   font-family: 'Staatliches', cursive;
   font-size: 20px;
   font-weight: 400;
   line-height: 34px;
   color: #FF5374;
 }
-
-
-
-
-
 
 .mentoria {
   display: flex;
@@ -150,12 +145,6 @@ fieldset legend {
 .mentoria > div:nth-child(3) {
   width: 140px;
 }
-
-
-
-
-
-
 
 footer {
   height: 160px;
