@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 ul {
   list-style: none;
 }
@@ -11,8 +15,10 @@ ul {
 body {
   background: #ece9fd;
   padding: 60px 23px 66px;
+  font-size: 1.6rem;
 }
 
 h1 {
   font-family: 'Epilogue', sans-serif;
+  font-size: 4.0rem;
 }
