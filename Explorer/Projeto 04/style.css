@@ -8,10 +8,6 @@ html {
   font-size: 62.5%;
 }
 
-ul {
-  list-style: none;
-}
-
 body {
   font-family: 'Epilogue', sans-serif;
   background: #ece9fd;
@@ -19,7 +15,13 @@ body {
   font-size: 1.6rem;
 }
 
+main {
+  max-width: 33.0rem;
+  margin: 0 auto;
+}
+
 h1 {
+  font-weight: 800;
   font-size: 4.0rem;
   line-height: 4.8rem;
   color: #090039;
@@ -27,7 +29,7 @@ h1 {
 
 main p:first-child {
   color: #7158ef;
-  letter-spacing: 0.3rem;
+  letter-spacing: 3px;
   text-transform: uppercase;
   line-height: 3.2rem;
   margin-bottom: 1.7rem;
@@ -47,5 +49,29 @@ a {
 a:hover {
   font-weight: bold;
   color: #7158ef;
-  margin-bottom: 7.2rem;
+}
+
+ul {
+  list-style: none;
+  margin-top: 7.2rem;
+}
+
+ul li {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  color: #090039;
+
+  max-width: 25.7rem;
+  display: flex;
+  gap: 3.8rem;
+}
+
+ul li span {
+  font-weight: 800;
+  font-size: 7.2rem;
+  line-height: 8.0rem;
+  letter-spacing: -2px;
+
+  color: #090039;
 }
