@@ -13,12 +13,39 @@ ul {
 }
 
 body {
+  font-family: 'Epilogue', sans-serif;
   background: #ece9fd;
   padding: 60px 23px 66px;
   font-size: 1.6rem;
 }
 
 h1 {
-  font-family: 'Epilogue', sans-serif;
   font-size: 4.0rem;
+  line-height: 4.8rem;
+  color: #090039;
+}
+
+main p:first-child {
+  color: #7158ef;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  line-height: 3.2rem;
+  margin-bottom: 1.7rem;
+}
+
+h1 + p {
+  color: rgba(10, 0, 57, 0.64);
+  line-height: 3.2rem;
+  margin-bottom: 3.2rem;
+}
+
+a {
+  color: #090039;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+  color: #7158ef;
+  margin-bottom: 7.2rem;
 }
