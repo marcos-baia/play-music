@@ -32,6 +32,45 @@ body {
   margin: 0 auto;
 }
 
+@media (min-width: 700px){
+  :root {
+    --ff-heading: 5.6rem;
+  }  
+  
+  .page {
+    max-width: 117rem;
+    padding: 0 5rem;
+  }  
+
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}  
+
+@media (min-width: 930px) {
+  main {
+    grid-template-areas: "A B B"
+    "C C D";
+  }  
+
+  main div:nth-child(1) {
+    grid-area: A;
+  }  
+
+  main div:nth-child(2) {
+    grid-area: B;
+  }  
+
+  main div:nth-child(3) {
+    grid-area: C;
+  }  
+
+  main div:nth-child(4) {
+    grid-area: D;
+  }  
+}  
+
 img {
   width: 100%;
   height: auto;
@@ -41,6 +80,7 @@ header {
   margin: 10rem 0 8rem;
   font-family: var(--ff-heading);
   text-align: center;
+  animation: topdown 700ms;
 }
 
 header p{
@@ -62,6 +102,9 @@ header h1 {
 main {
   display: grid;
   gap: 3.2rem;
+
+  padding-bottom: 10rem;
+  animation: downtop 700ms 350ms backwards;
 }
 
 .card {
@@ -84,7 +127,8 @@ main {
   position: absolute;
   bottom: 5.2rem;
   left: 2.8rem;
-  font-size: var(--fs-heading);
+
+  font-size: 4rem;
   font-weight: 800;
 
   display: flex;
@@ -104,15 +148,6 @@ main {
 
   display: inline-flex;
   align-items: center;
-}
-
-header {
-  animation-name: topdown;
-  animation-duration: 700ms;
-}
-
-main{
-  animation: downtop 700ms 350ms backwards;
 }
 
 @keyframes topdown {
