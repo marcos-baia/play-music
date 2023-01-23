@@ -2,6 +2,10 @@
  Programming Training
 
 
+<p align="center">
+  <img alt="Rocketseat" src=".images/rocketseat.png">
+</p>
+
 <h1 align="center"> Habits </h1>
 
 
