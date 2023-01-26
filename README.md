@@ -3,12 +3,14 @@
 </p>
 <h1></h1>
 
-### O Rocketseat é uma plataforma de educação em tecnologia, onde estou realizando a formação Explorer, que é um programa que reune tudo o que é necessário para o desenvolvimento das habilidades técnicas e comportamentais.
+<p align="justify">
+ O Rocketseat é uma plataforma de educação em tecnologia, onde estou realizando a formação Explorer, que é um programa que reune tudo o que é necessário para o desenvolvimento das habilidades técnicas e comportamentais.
+</p>
 
 <p align="center">
   <a href="#-formacao">Formação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projetos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Eventos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Eventos</a>&nbsp;&nbsp;&nbsp;
 </p>
 <br>
 
@@ -30,6 +32,9 @@ Conhecimento adiquirido:
 
 ## 📅 💻 **Eventos**
 <h2>2003</h2>
+
 <img alt="Rocketseat" src=".images/nlw setup.png" width="400px"><br>
 
+[Link do Projeto](https://marcos-baia.github.io/Rocketseat/NLW-Setup/)
 
+![nlw-setup](https://github.com/marcos-baia/Rocketseat/blob/main/.images/nlw%20setup.png)
