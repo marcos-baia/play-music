@@ -1,16 +1,15 @@
-# Rocketseat
- Programming Training
-
-
 <p align="center">
-  <img alt="Rocketseat" src=".images/rocketseat.png">
+  <img alt="Rocketseat" src=".images/logo_rocketseat.png">
 </p>
 
-<h1 align="center"> Habits </h1>
+
+
+
+<h1 align="center"> Rocketseat </h1>
 
 
 <p align="center">
-NLW é um evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
+O Rocketseat é uma plataforma de educação em tecnologia, onde estou realizando a formação Explorer, que é um programa que reune tudo o que é necessário para o desenvolvimento das habilidades técnicas e comportamentais. <br/>
 </p>
 
 <p align="center">
