@@ -1,14 +1,11 @@
 <p align="center">
-  <img alt="Rocketseat" src=".images/logo_rocketseat.png">
+  <img alt="Rocketseat" src=".images/logo_rocketseat.png" width="400px">
 </p>
 
+<h1 align="center"></h1>
 
 
-
-<h1 align="center"> Rocketseat </h1>
-
-
-<p align="center">
+<p align="justify">
 O Rocketseat é uma plataforma de educação em tecnologia, onde estou realizando a formação Explorer, que é um programa que reune tudo o que é necessário para o desenvolvimento das habilidades técnicas e comportamentais. <br/>
 </p>
 
