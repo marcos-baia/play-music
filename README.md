@@ -14,10 +14,10 @@
 </p>
 <br>
 
-## 🔰 👨🏻‍🎓 **Formação Técnica**
+## 🔰 **Formação Técnica**
 Em construção... 🚧
 <p align="center">
-<img alt="Rocketseat" src=".images/explorer.png" width="200px">
+<img alt="Rocketseat" src="" width="200px">
 </p>
 
 Conhecimento adiquirido:
@@ -27,14 +27,14 @@ Conhecimento adiquirido:
 - Git e Github
 <br>
 
-## 🚀 🖥️  **Projetos**
+## 🚀 **Projetos**
 <br>
 
-## 📅 💻 **Eventos**
+## 📅 **Eventos**
 <h2>2003</h2>
 
 <img alt="Rocketseat" src=".images/nlw setup.png" width="400px"><br>
 
-[Link do Projeto](https://marcos-baia.github.io/Rocketseat/NLW-Setup/)
+[Link do Projeto]()
 
-![nlw-setup](https://github.com/marcos-baia/Rocketseat/blob/main/.images/nlw%20setup.png)
+![nlw-setup]()
