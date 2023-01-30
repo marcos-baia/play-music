@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Rocketseat" src=".images/logo_rocketseat.png" width="400px">
+  <img alt="Rocketseat" src=".assets/logo_rocketseat.png" width="400px">
 </p>
 <h1></h1>
 
@@ -33,7 +33,7 @@ Conhecimento adiquirido:
 ## 📅 **Eventos**
 <h2>2003</h2>
 
-<img alt="Rocketseat" src=".images/nlw setup.png" width="400px"><br>
+<img alt="Rocketseat" src=".assets/nlw setup.png" width="400px"><br>
 
 [Link do Projeto]()
 
