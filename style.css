@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(137deg,#290148 0%, #fe00ba 450%);
+  color: #ffffff;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
