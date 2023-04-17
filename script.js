@@ -6,6 +6,7 @@ const cover = document.getElementById('cover');
 const play = document.getElementById('play');
 const next = document.getElementById('next');
 const previous = document.getElementById('previous');
+const currentProgress = document.getElementById('current-progress');
 
 // VARIABLES
 const Alive = {
@@ -26,7 +27,6 @@ const Favela = {
 let isPlaying = false;
 const playlist = [Alive, BigJetPlane, Favela];
 let index = 0;
-
 
 // FUNCTIONS
 function playSong(){
@@ -78,11 +78,16 @@ function nextSong(){
   playSong();
 }
 
+function updateProgressBar(){
+  const barWidth = (song.currentTime/song.duration)*100;
+  currentProgress.style.setProperty('--progress', `${barWidth}%`);
+}
+
 //EXECUTIONS OF FUNCTIONS
 initializeSong();
-
 
 // ADD EVENT
 play.addEventListener('click', playPauseDecider);
 previous.addEventListener('click', previousSong);
 next.addEventListener('click', nextSong);
+song.addEventListener('timeupdate', updateProgressBar);
