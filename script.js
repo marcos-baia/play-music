@@ -27,6 +27,18 @@ const Favela = {
   file : 'Favela'
 };
 
+const FeelTheLove = {
+  songName : 'Feel The Love',
+  artist : 'Rudimental feat. John Newman',
+  file : 'Feel The Love'
+};
+
+const FriendshipsOriginalMix = {
+  songName : 'Friendships (Original Mix)',
+  artist : 'Rudimental feat. John Newman',
+  file : 'Friendships (Original Mix)'
+};
+
 // auxiliary variables
 let isPlaying = false;
 let isShuffled = false;
