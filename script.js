@@ -14,13 +14,12 @@ const shuffleButton = document.getElementById('shuffle');
 const Alive = {songName : 'Alive (It Feels Like)', artist : 'Alok', file : 'Alive (It Feels Like)'};
 const BigJetPlane = {songName : 'Big Jet Plane', artist : 'Alok & Mathieu Koss', file : 'Big Jet Plane'};
 const Favela = {songName : 'Favela', artist : 'Alok & Ina Wroldsen', file : 'Favela'};
-
 const FeelTheLove = {songName : 'Feel The Love', artist : 'Rudimental feat. John Newman', file : 'Feel The Love'};
-const Friendships = {songName : 'Friendships (Original Mix)', artist : 'Rudimental feat. John Newman', file : 'Friendships (Original Mix)'};
+const Friendships = {songName : 'Friendships', artist : 'Rudimental feat. John Newman', file : 'Friendships'};
 const Fuego = {songName : 'Fuego', artist : 'Alok & Bhaskar', file : 'Fuego'};
 const GetLucky = {songName : 'Get Lucky', artist : 'Daft Punk', file : 'Get Lucky'};
 const HearMeNowlive = {songName : 'Hear Me Now', artist : 'Bruno Martini feat Zeeba', file : 'Hear Me Now'};
-const InMyMindRemix = {songName : 'In My Mind (Joel Corry Remix)', artist : 'Alok, John Legend (Joel Corry Remix)', file : 'In My Mind (Joel Corry Remix)'};
+const InMyMindRemix = {songName : 'In My Mind (Remix)', artist : 'Joel Corry Remix', file : 'In My Mind (Joel Corry Remix)'};
 const InMyMind = {songName : 'In My Mind', artist : 'Alok & John Legend', file : 'In My Mind'};
 const LoseControl = {songName : 'Lose Control', artist : 'Meduza, Becky Hill, Goodboys', file : 'Lose Control'};
 const MeYou = {songName : 'Me & You', artist : 'Alok feat. iRO', file : 'Me & You'};
@@ -38,7 +37,7 @@ let isPlaying = false;
 let isShuffled = false;
 
 // array
-const originalPlaylist = [Alive, BigJetPlane, Favela];
+const originalPlaylist = [Alive, BigJetPlane, Favela, FeelTheLove, Friendships, Fuego, GetLucky, HearMeNowlive, InMyMindRemix, InMyMind, LoseControl, MeYou, NeverLetMeGo, Ocean, OnOn, SixDays, Sugar, Titanium, Waves, Whistle];
 let sortedPlaylist = [...originalPlaylist];
 let index = 0;
 
