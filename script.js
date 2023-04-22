@@ -29,7 +29,7 @@ const OnOn = {songName : 'On & On', artist : 'Cartoon feat Daniel Levi', file : 
 const SixDays = {songName : 'Six Days (Remix)', artist : 'Dj Shadow', file : 'Six Days (Remix)'};
 const Sugar = {songName : 'Sugar', artist : 'Robin Schulz feat. Francesco Yates', file : 'Sugar'};
 const Titanium = {songName : 'Titanium', artist : 'David Guetta feat Sia', file : 'Titanium'};
-const Waves = {songName : 'Waves', artist : 'Robin Schulz Remix Radio Edit', file : 'wave'};
+const Waves = {songName : 'Waves', artist : 'Robin Schulz Remix Radio Edit', file : 'Waves'};
 const Whistle = {songName : 'Whistle', artist : 'Flo Rida', file : 'Whistle'};
 
 // auxiliary variables
