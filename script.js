@@ -11,33 +11,28 @@ const progressContainer = document.getElementById('progress-container');
 const shuffleButton = document.getElementById('shuffle');
 
 // VARIABLES
-const Alive = {
-  songName : 'Alive (It Feels Like)',
-  artist : 'Alok',
-  file : 'Alive (It Feels Like)'
-};
-const BigJetPlane = {
-  songName : 'Big Jet Plane',
-  artist : 'Alok & Mathieu Koss',
-  file : 'Big Jet Plane'
-};
-const Favela = {
-  songName : 'Favela',
-  artist : 'Alok & Ina Wroldsen',
-  file : 'Favela'
-};
+const Alive = {songName : 'Alive (It Feels Like)', artist : 'Alok', file : 'Alive (It Feels Like)'};
+const BigJetPlane = {songName : 'Big Jet Plane', artist : 'Alok & Mathieu Koss', file : 'Big Jet Plane'};
+const Favela = {songName : 'Favela', artist : 'Alok & Ina Wroldsen', file : 'Favela'};
 
-const FeelTheLove = {
-  songName : 'Feel The Love',
-  artist : 'Rudimental feat. John Newman',
-  file : 'Feel The Love'
-};
+const FeelTheLove = {songName : 'Feel The Love', artist : 'Rudimental feat. John Newman', file : 'Feel The Love'};
+const Friendships = {songName : 'Friendships (Original Mix)', artist : 'Rudimental feat. John Newman', file : 'Friendships (Original Mix)'};
+const Fuego = {songName : 'Fuego', artist : 'Alok & Bhaskar', file : 'Fuego'};
+const GetLucky = {songName : 'Get Lucky', artist : 'Daft Punk', file : 'Get Lucky'};
+const HearMeNowlive = {songName : 'Hear Me Now', artist : 'Bruno Martini feat Zeeba', file : 'Hear Me Now'};
+const InMyMindRemix = {songName : 'In My Mind (Joel Corry Remix)', artist : 'Alok, John Legend (Joel Corry Remix)', file : 'In My Mind (Joel Corry Remix)'};
+const InMyMind = {songName : 'In My Mind', artist : 'Alok & John Legend', file : 'In My Mind'};
+const LoseControl = {songName : 'Lose Control', artist : 'Meduza, Becky Hill, Goodboys', file : 'Lose Control'};
+const MeYou = {songName : 'Me & You', artist : 'Alok feat. iRO', file : 'Me & You'};
+const NeverLetMeGo = {songName : 'Never Let Me Go', artist : 'Bruno Martini feat Zeeba', file : 'Never Let Me Go'};
+const Ocean = {songName : 'Ocean', artist : 'Alok feat. Zeeba', file : 'Ocean'};
+const OnOn = {songName : 'On & On', artist : 'Cartoon feat Daniel Levi', file : 'On & On'};
+const SixDays = {songName : 'Six Days (Remix)', artist : 'Dj Shadow', file : 'Six Days (Remix)'};
+const Sugar = {songName : 'Sugar', artist : 'Robin Schulz feat. Francesco Yates', file : 'Sugar'};
+const Titanium = {songName : 'Titanium', artist : 'David Guetta feat Sia', file : 'Titanium'};
+const Waves = {songName : 'Waves', artist : 'Robin Schulz Remix Radio Edit', file : 'wave'};
+const Whistle = {songName : 'Whistle', artist : 'Flo Rida', file : 'Whistle'};
 
-const FriendshipsOriginalMix = {
-  songName : 'Friendships (Original Mix)',
-  artist : 'Rudimental feat. John Newman',
-  file : 'Friendships (Original Mix)'
-};
 
 // auxiliary variables
 let isPlaying = false;
