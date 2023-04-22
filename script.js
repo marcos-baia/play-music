@@ -33,7 +33,6 @@ const Titanium = {songName : 'Titanium', artist : 'David Guetta feat Sia', file 
 const Waves = {songName : 'Waves', artist : 'Robin Schulz Remix Radio Edit', file : 'wave'};
 const Whistle = {songName : 'Whistle', artist : 'Flo Rida', file : 'Whistle'};
 
-
 // auxiliary variables
 let isPlaying = false;
 let isShuffled = false;
