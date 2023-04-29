@@ -140,6 +140,14 @@ function repeatButtonClicked() {
   }
 }
 
+function nextOrRepeat() {
+  if(repeatOn === false){
+    nextSong();
+  } else {
+    playSong();
+  }
+}
+
 //EXECUTIONS OF FUNCTIONS
 initializeSong();
 
@@ -148,6 +156,7 @@ play.addEventListener('click', playPauseDecider);
 previous.addEventListener('click', previousSong);
 next.addEventListener('click', nextSong);
 song.addEventListener('timeupdate', updateProgressBar);
+song.addEventListener('ended', nextOrRepeat);
 progressContainer.addEventListener('click', jumpTo);
 shuffleButton.addEventListener('click', shuffleButtonClicked);
 repeatButton.addEventListener('click', repeatButtonClicked);
