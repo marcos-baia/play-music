@@ -9,6 +9,7 @@ const previous = document.getElementById('previous');
 const currentProgress = document.getElementById('current-progress');
 const progressContainer = document.getElementById('progress-container');
 const shuffleButton = document.getElementById('shuffle');
+const repeatButton = document.getElementById('repeat');
 
 // VARIABLES
 const Alive = {songName : 'Alive (It Feels Like)', artist : 'Alok', file : 'Alive (It Feels Like)'};
@@ -35,6 +36,7 @@ const Whistle = {songName : 'Whistle', artist : 'Flo Rida', file : 'Whistle'};
 // auxiliary variables
 let isPlaying = false;
 let isShuffled = false;
+let repeatOn = false;
 
 // array
 const originalPlaylist = [Alive, BigJetPlane, Favela, FeelTheLove, Friendships, Fuego, GetLucky, HearMeNowlive, InMyMindRemix, InMyMind, LoseControl, MeYou, NeverLetMeGo, Ocean, OnOn, SixDays, Sugar, Titanium, Waves, Whistle];
@@ -128,6 +130,16 @@ function shuffleButtonClicked(){
   }
 }
 
+function repeatButtonClicked() {
+  if(repeatOn === false){
+    repeatOn = true;
+    repeatButton.classList.add('button-active');
+  } else{
+    repeatOn = false;
+    repeatButton.classList.remove('button-active');
+  }
+}
+
 //EXECUTIONS OF FUNCTIONS
 initializeSong();
 
@@ -138,3 +150,4 @@ next.addEventListener('click', nextSong);
 song.addEventListener('timeupdate', updateProgressBar);
 progressContainer.addEventListener('click', jumpTo);
 shuffleButton.addEventListener('click', shuffleButtonClicked);
+repeatButton.addEventListener('click', repeatButtonClicked);
