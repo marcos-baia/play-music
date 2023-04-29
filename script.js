@@ -10,6 +10,9 @@ const currentProgress = document.getElementById('current-progress');
 const progressContainer = document.getElementById('progress-container');
 const shuffleButton = document.getElementById('shuffle');
 const repeatButton = document.getElementById('repeat');
+const songTime = document.getElementById('song-time');
+const totalTime = document.getElementById('total-time');
+
 
 // VARIABLES
 const Alive = {songName : 'Alive (It Feels Like)', artist : 'Alok', file : 'Alive (It Feels Like)'};
@@ -93,9 +96,10 @@ function nextSong(){
   playSong();
 }
 
-function updateProgressBar(){
+function updateProgress(){
   const barWidth = (song.currentTime/song.duration)*100;
   currentProgress.style.setProperty('--progress', `${barWidth}%`);
+  songTime.innerText = toHHMMSS(song.currentTime);
 }
 
 function jumpTo(event){
@@ -148,6 +152,19 @@ function nextOrRepeat() {
   }
 }
 
+/* auxiliary function to convert to hours, minutes and seconds */
+function toHHMMSS(originalNumber){
+  let hours = Math.floor(originalNumber / 3600);
+  let min = Math.floor((originalNumber - hours * 3600) / 60);
+  let secs = Math.floor(originalNumber - hours * 3600 - min * 60);
+
+  return `${hours.toString().padStart(2, '0')}:${min.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`; 
+}
+
+function updateTotalTime(){
+  totalTime.innerHTML = toHHMMSS(song.duration);
+}
+
 //EXECUTIONS OF FUNCTIONS
 initializeSong();
 
@@ -155,8 +172,9 @@ initializeSong();
 play.addEventListener('click', playPauseDecider);
 previous.addEventListener('click', previousSong);
 next.addEventListener('click', nextSong);
-song.addEventListener('timeupdate', updateProgressBar);
+song.addEventListener('timeupdate', updateProgress);
 song.addEventListener('ended', nextOrRepeat);
+song.addEventListener('loadedmetadata', updateTotalTime);
 progressContainer.addEventListener('click', jumpTo);
 shuffleButton.addEventListener('click', shuffleButtonClicked);
 repeatButton.addEventListener('click', repeatButtonClicked);
