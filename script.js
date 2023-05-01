@@ -42,7 +42,7 @@ let isShuffled = false;
 let repeatOn = false;
 
 // array
-const originalPlaylist = [Alive, BigJetPlane, Favela, FeelTheLove, Friendships, Fuego, GetLucky, HearMeNowlive, InMyMindRemix, InMyMind, LoseControl, MeYou, NeverLetMeGo, Ocean, OnOn, SixDays, Sugar, Titanium, Waves, Whistle];
+const originalPlaylist = JSON.parse(localStorage.getItem('playlist'));
 
 let sortedPlaylist = [...originalPlaylist];
 let index = 0;
@@ -186,6 +186,7 @@ function likeButtonClicked(){
     sortedPlaylist[index].liked = false;
   }
   likeButtonRender();
+  localStorage.setItem('playlist', JSON.stringify(originalPlaylist));
 }
 
 //EXECUTIONS OF FUNCTIONS
