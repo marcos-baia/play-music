@@ -179,6 +179,15 @@ function updateTotalTime(){
   totalTime.innerHTML = toHHMMSS(song.duration);
 }
 
+function likeButtonClicked(){
+  if(sortedPlaylist[index].liked === false){
+    sortedPlaylist[index].liked = true;
+  } else {
+    sortedPlaylist[index].liked = false;
+  }
+  likeButtonRender();
+}
+
 //EXECUTIONS OF FUNCTIONS
 initializeSong();
 
@@ -192,3 +201,4 @@ song.addEventListener('loadedmetadata', updateTotalTime);
 progressContainer.addEventListener('click', jumpTo);
 shuffleButton.addEventListener('click', shuffleButtonClicked);
 repeatButton.addEventListener('click', repeatButtonClicked);
+likeButton.addEventListener('click', likeButtonClicked);
