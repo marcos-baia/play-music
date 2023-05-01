@@ -42,7 +42,7 @@ let isShuffled = false;
 let repeatOn = false;
 
 // array
-const originalPlaylist = JSON.parse(localStorage.getItem('playlist'));
+const originalPlaylist = JSON.parse(localStorage.getItem('playlist')) ?? [Alive, BigJetPlane, Favela, FeelTheLove, Friendships, Fuego, GetLucky, HearMeNowlive, InMyMindRemix, InMyMind, LoseControl, MeYou, NeverLetMeGo, Ocean, OnOn, SixDays, Sugar, Titanium, Waves, Whistle];
 
 let sortedPlaylist = [...originalPlaylist];
 let index = 0;
